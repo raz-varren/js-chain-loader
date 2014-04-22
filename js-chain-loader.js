@@ -78,10 +78,11 @@
 			
 			synchronous = function(taskList, taskIdx){
 				taskIdx = taskIdx || 0;
+				var task = taskList[taskIdx];
 				
-				if(!taskList[taskIdx]) return;
-				return ajax(taskList[taskIdx].request)
-					.then(taskList[taskIdx].callback)
+				if(!task) return;
+				return ajax(task.request)
+					.then(task.callback)
 					.then(function(){
 						return synchronous(taskList, taskIdx + 1);
 					});
