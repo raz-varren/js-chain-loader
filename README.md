@@ -5,7 +5,7 @@ Generate synchronous and asynchronous AJAX request queues.
 
 ### Usage:
 
-##### JSFiddle: [http://jsfiddle.net/W9NfP/2/](http://jsfiddle.net/W9NfP/2/)
+##### JSFiddle: [http://jsfiddle.net/W9NfP/3/](http://jsfiddle.net/W9NfP/3/)
 
 ```html
 <!DOCTYPE html>
